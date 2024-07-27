@@ -3,6 +3,18 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
+        stringTestMethod();
+    }
+
+
+    private static void stringTestMethod() {
+
+        StringTest stringTest = new StringTest();
+        stringTest.print();
+    }
+
+    private static void classTestMethod() {
+
         Circle circle = new Circle();
         Circle circle1 = new Circle();
         Circle circle2 = new Circle();
