@@ -4,9 +4,11 @@ public class Circle {
     private double radius;
     private int line;
     private int color;
+    public static int count;
 
     // @NoArgsConstructor
     public Circle() {
+        count++;
     }
 
     // @AllArgsConstructor
@@ -14,6 +16,7 @@ public class Circle {
         this.radius = radius;
         this.line = line;
         this.color = color;
+        count++;
     }
 
     public Circle(double radius) {
@@ -50,5 +53,9 @@ public class Circle {
     public Circle setColor(int color) {
         this.color = color;
         return this;
+    }
+
+    public static void setCount() {
+        count = 100;
     }
 }
