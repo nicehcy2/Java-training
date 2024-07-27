@@ -3,7 +3,22 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
-        stringTestMethod();
+        // stringTestMethod();
+        // varArgsTest(1, 2, 3, 4, 5);
+
+        System.out.println(ResponseCode.NOT_FOUND);
+    }
+
+    /**
+     * 자바는 가변 개수 매개변수를 배열로 취급
+     * @param a
+     * @param v
+     */
+    private static void varArgsTest(int a, int... v) {
+
+        for(int x : v){
+            System.out.println(x);
+        }
     }
 
 
