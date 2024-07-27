@@ -16,6 +16,10 @@ public class Circle {
         this.color = color;
     }
 
+    public Circle(double radius) {
+        this(radius, 1, 1);
+    }
+
     public double findArea() {
         return 3.14 * radius * radius;
     }
@@ -31,5 +35,20 @@ public class Circle {
 
     public int getColor() {
         return color;
+    }
+
+    public Circle setRadius(double radius) {
+        this.radius = radius;
+        return this;
+    }
+
+    public Circle setLine(int line) {
+        this.line = line;
+        return this;
+    }
+
+    public Circle setColor(int color) {
+        this.color = color;
+        return this;
     }
 }
