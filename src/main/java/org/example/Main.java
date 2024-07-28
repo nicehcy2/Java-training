@@ -9,6 +9,8 @@ public class Main {
         // mathTest();
 
         // stringBuilderTest();
+        ArrayTest at = new ArrayTest();
+        at.test();
     }
 
     private static void stringBuilderTest() {
@@ -19,6 +21,15 @@ public class Main {
         sb.replace(0, 5, "JAVA").reverse();
 
         System.out.println(sb);
+
+        String s1 = Double.toString(3.14);
+        System.out.println(s1);
+
+        double pi = Double.parseDouble("3.14");
+        System.out.println(pi);
+
+        int i1 = Integer.parseInt("11");
+        System.out.println(i1);
     }
 
     private static void mathTest() {
