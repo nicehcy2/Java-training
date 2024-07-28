@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b70e10-4535-4071-9d4e-db13d9d33668" name="변경" comment="String 인스턴스 메서드, 정적 메서드 연습">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ResponseCode.java" afterDir="false" />
+    <list default="true" id="06b70e10-4535-4071-9d4e-db13d9d33668" name="변경" comment="Enum 연습">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ResponseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ResponseCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,7 +80,10 @@
       <workItem from="1721962646861" duration="2710000" />
       <workItem from="1722080664709" duration="4563000" />
       <workItem from="1722087055333" duration="361000" />
-      <workItem from="1722087432609" duration="2039000" />
+      <workItem from="1722087432609" duration="3073000" />
+      <workItem from="1722142282194" duration="26000" />
+      <workItem from="1722153528086" duration="1154000" />
+      <workItem from="1722156566229" duration="782000" />
     </task>
     <task id="LOCAL-00001" summary="class, instace, object 연습">
       <created>1722081293984</created>
@@ -117,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722087151327</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Enum 연습">
+      <created>1722089900140</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722089900140</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +139,7 @@
     <MESSAGE value="this(), 연속 호출 연습" />
     <MESSAGE value="static 연습" />
     <MESSAGE value="String 인스턴스 메서드, 정적 메서드 연습" />
-    <option name="LAST_COMMIT_MESSAGE" value="String 인스턴스 메서드, 정적 메서드 연습" />
+    <MESSAGE value="Enum 연습" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enum 연습" />
   </component>
 </project>

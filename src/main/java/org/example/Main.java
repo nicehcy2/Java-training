@@ -5,8 +5,29 @@ public class Main {
 
         // stringTestMethod();
         // varArgsTest(1, 2, 3, 4, 5);
+        // System.out.println(ResponseCode.NOT_FOUND);
+        // mathTest();
 
-        System.out.println(ResponseCode.NOT_FOUND);
+        // stringBuilderTest();
+    }
+
+    private static void stringBuilderTest() {
+
+        StringBuilder sb = new StringBuilder("hi");
+        sb.append("!");
+        sb.insert(0, "Hello, ");
+        sb.replace(0, 5, "JAVA").reverse();
+
+        System.out.println(sb);
+    }
+
+    private static void mathTest() {
+        System.out.println("Math.pow(2, 8) : " + Math.pow(2.0, 8.1));
+        System.out.println("10과 5 중 더 큰 수 : " + Math.max(10.0, 5));
+        System.out.println("10과 5 중 더 작은 수 : " + Math.min(10, 5));
+        System.out.println("-1의 절댓값 : " + Math.abs(-1));
+        System.out.println("0.0이상 1.0 미만의 난수: " + Math.random());
+        System.out.println("4의 제곱근 값 : " + Math.sqrt(4.0));
     }
 
     /**
