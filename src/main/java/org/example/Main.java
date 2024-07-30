@@ -1,16 +1,18 @@
 package org.example;
 
+import java.util.StringTokenizer;
+
 public class Main {
     public static void main(String[] args) {
 
-        // stringTestMethod();
-        // varArgsTest(1, 2, 3, 4, 5);
-        // System.out.println(ResponseCode.NOT_FOUND);
-        // mathTest();
+        Parent p = new Child();
+        p.whoami();
 
-        // stringBuilderTest();
-        ArrayTest at = new ArrayTest();
-        at.test();
+        Child c = new Child();
+        p = c;
+        Child c2 = (Child)p;
+        c2.whoami();
+        c2.work();
     }
 
     private static void stringBuilderTest() {
@@ -30,6 +32,13 @@ public class Main {
 
         int i1 = Integer.parseInt("11");
         System.out.println(i1);
+
+        String s = "of the people, by the people, for the people";
+        StringTokenizer st = new StringTokenizer(s);
+
+        while (st.hasMoreTokens()) {
+            System.out.println("[" + st.nextToken() + "]");
+        }
     }
 
     private static void mathTest() {
