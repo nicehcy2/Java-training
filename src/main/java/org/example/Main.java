@@ -5,8 +5,7 @@ import java.util.StringTokenizer;
 public class Main {
     public static void main(String[] args) {
 
-        DistanceCalculatorByLocation calculator = new DistanceCalculatorByLocation();
-        double distance = calculator.calculateDistance(126.6409615, 37.5355018, 126.6602657, 37.5370918);
+        double distance = DistanceCalculatorByLocation.calculateDistance(126.6409615, 37.5355018, 126.6602657, 37.5370918);
         System.out.println("distance: " + distance);
 
         /*
