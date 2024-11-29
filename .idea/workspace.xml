@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b70e10-4535-4071-9d4e-db13d9d33668" name="변경" comment="컬렉션 프레임워크">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Parent.java" afterDir="false" />
+    <list default="true" id="06b70e10-4535-4071-9d4e-db13d9d33668" name="변경" comment="lombok @AllArgsConstructor 상속 테스트">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/GrandChild.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/Child.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/Parent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,24 +58,30 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/niceh/GitHub/java-code/JavaCodeTraining&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/niceh/GitHub/java-code/JavaCodeTraining/src/main/java/org/example/inheritance",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\niceh\GitHub\java-code\JavaCodeTraining\src\main\java\org\example\inheritance" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -89,7 +95,7 @@
       <module name="JavaCodeTraining.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,7 +186,8 @@
       <workItem from="1723742046795" duration="5878000" />
       <workItem from="1729526615562" duration="5119000" />
       <workItem from="1729599352511" duration="39000" />
-      <workItem from="1732007204312" duration="784000" />
+      <workItem from="1732007204312" duration="1443000" />
+      <workItem from="1732867720403" duration="3375000" />
     </task>
     <task id="LOCAL-00001" summary="class, instace, object 연습">
       <created>1722081293984</created>
@@ -280,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729531639310</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="lombok @AllArgsConstructor 상속 테스트">
+      <created>1732010402800</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732010402800</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,6 +314,7 @@
     <MESSAGE value="Feat: Interface 다중 상속 연습, 함수형 인터페이스 연습" />
     <MESSAGE value="Delete: clear" />
     <MESSAGE value="컬렉션 프레임워크" />
-    <option name="LAST_COMMIT_MESSAGE" value="컬렉션 프레임워크" />
+    <MESSAGE value="lombok @AllArgsConstructor 상속 테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="lombok @AllArgsConstructor 상속 테스트" />
   </component>
 </project>
