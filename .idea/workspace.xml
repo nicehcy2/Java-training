@@ -4,26 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b70e10-4535-4071-9d4e-db13d9d33668" name="변경" comment="상속, 다형성 공부">
-      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap03/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap03/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap03/ExecuteAround.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap03/Lambdas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap03/Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap04/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap04/HighCaloriesNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap04/StreamBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap04/StreamVsCollection.java" afterDir="false" />
+    <list default="true" id="06b70e10-4535-4071-9d4e-db13d9d33668" name="변경" comment="모던 자바 3, 4장">
       <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap05/Filtering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap05/Mapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap05/Matching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap05/NumericStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap05/PuttingIntoPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap05/Reducing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap05/Trader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap05/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/collections/Question01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/collections/Question02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/collections/Question03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/collections/Question04.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/inheritance/Child.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/inheritance/GrandChild.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/inheritance/Parent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/collections/Question01Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/collections/Question02Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/collections/Question03Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,26 +65,26 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/niceh/GitHub/java-code/JavaCodeTraining/src/main/java/modernjavainaction/chap04",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/niceh/GitHub/java-code/JavaCodeTraining/src/main/java/modernjavainaction/chap04&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\niceh\GitHub\java-code\JavaCodeTraining\src\main\java\modernjavainaction\chap04" />
@@ -108,9 +101,9 @@
       <recent name="org.example.collections" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Filtering">
-    <configuration name="Filtering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modernjavainaction.chap05.Filtering" />
+  <component name="RunManager" selected="애플리케이션.NumericStreams">
+    <configuration name="Mapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modernjavainaction.chap05.Mapping" />
       <module name="JavaCodeTraining.main" />
       <extension name="coverage">
         <pattern>
@@ -122,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="Matching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modernjavainaction.chap05.Matching" />
       <module name="JavaCodeTraining.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.inheritance.*" />
+          <option name="PATTERN" value="modernjavainaction.chap05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modernjavainaction.chap03.Sorting" />
+    <configuration name="NumericStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modernjavainaction.chap05.NumericStreams" />
       <module name="JavaCodeTraining.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modernjavainaction.chap03.*" />
+          <option name="PATTERN" value="modernjavainaction.chap05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="modernjavainaction.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modernjavainaction.Main" />
+    <configuration name="PuttingIntoPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modernjavainaction.chap05.PuttingIntoPractice" />
       <module name="JavaCodeTraining.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modernjavainaction.*" />
+          <option name="PATTERN" value="modernjavainaction.chap05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,28 +154,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question03Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCodeTraining.test" />
+    <configuration name="Reducing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modernjavainaction.chap05.Reducing" />
+      <module name="JavaCodeTraining.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.collections.*" />
+          <option name="PATTERN" value="modernjavainaction.chap05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.collections" />
-      <option name="MAIN_CLASS_NAME" value="org.example.collections.Question03Test" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Filtering" />
-        <item itemvalue="애플리케이션.Sorting" />
-        <item itemvalue="애플리케이션.modernjavainaction.Main" />
-        <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="JUnit.Question03Test" />
+        <item itemvalue="애플리케이션.NumericStreams" />
+        <item itemvalue="애플리케이션.PuttingIntoPractice" />
+        <item itemvalue="애플리케이션.Reducing" />
+        <item itemvalue="애플리케이션.Matching" />
+        <item itemvalue="애플리케이션.Mapping" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +215,8 @@
       <workItem from="1746532170368" duration="1955000" />
       <workItem from="1746606814672" duration="5337000" />
       <workItem from="1746629589537" duration="11000" />
-      <workItem from="1747062182982" duration="952000" />
+      <workItem from="1747062182982" duration="5680000" />
+      <workItem from="1747127038974" duration="7985000" />
     </task>
     <task id="LOCAL-00001" summary="class, instace, object 연습">
       <created>1722081293984</created>
@@ -338,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732872315279</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="모던 자바 3, 4장">
+      <created>1747064882335</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1747064882335</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +359,7 @@
     <MESSAGE value="컬렉션 프레임워크" />
     <MESSAGE value="lombok @AllArgsConstructor 상속 테스트" />
     <MESSAGE value="상속, 다형성 공부" />
-    <option name="LAST_COMMIT_MESSAGE" value="상속, 다형성 공부" />
+    <MESSAGE value="모던 자바 3, 4장" />
+    <option name="LAST_COMMIT_MESSAGE" value="모던 자바 3, 4장" />
   </component>
 </project>
