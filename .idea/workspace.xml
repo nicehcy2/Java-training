@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b70e10-4535-4071-9d4e-db13d9d33668" name="변경" comment="모던 자바 6-1, 2장">
-      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap06/CaloricLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap06/Grouping.java" afterDir="false" />
+    <list default="true" id="06b70e10-4535-4071-9d4e-db13d9d33668" name="변경" comment="모던 자바 6-3장">
+      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap06/Partitioning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap04/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap04/Dish.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +39,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,26 +55,26 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/niceh/GitHub/java-code/JavaCodeTraining/src/main/java/modernjavainaction/chap06",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/niceh/GitHub/java-code/JavaCodeTraining/src/main/java/modernjavainaction/chap06&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\niceh\GitHub\java-code\JavaCodeTraining\src\main\java\modernjavainaction\chap06" />
@@ -95,7 +93,7 @@
       <recent name="org.example.collections" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Grouping">
+  <component name="RunManager" selected="애플리케이션.Partitioning">
     <configuration name="Grouping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="modernjavainaction.chap06.Grouping" />
       <module name="JavaCodeTraining.main" />
@@ -135,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PuttingIntoPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modernjavainaction.chap05.PuttingIntoPractice" />
+    <configuration name="Partitioning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modernjavainaction.chap06.Partitioning" />
       <module name="JavaCodeTraining.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modernjavainaction.chap05.*" />
+          <option name="PATTERN" value="modernjavainaction.chap06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Partitioning" />
         <item itemvalue="애플리케이션.Grouping" />
         <item itemvalue="애플리케이션.modernjavainaction.chap06.Reducing" />
         <item itemvalue="애플리케이션.MakingStream" />
         <item itemvalue="애플리케이션.NumericStreams" />
-        <item itemvalue="애플리케이션.PuttingIntoPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +213,9 @@
       <workItem from="1747202245955" duration="7305000" />
       <workItem from="1747212166694" duration="3000" />
       <workItem from="1747225112432" duration="10000" />
-      <workItem from="1747303839069" duration="6344000" />
+      <workItem from="1747303839069" duration="7517000" />
+      <workItem from="1747319751317" duration="18000" />
+      <workItem from="1747325535411" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary="class, instace, object 연습">
       <created>1722081293984</created>
@@ -357,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1747210167050</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="모던 자바 6-3장">
+      <created>1747313460091</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1747313460091</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,6 +390,7 @@
     <MESSAGE value="모던 자바 5장" />
     <MESSAGE value="모던 자바 5-8장" />
     <MESSAGE value="모던 자바 6-1, 2장" />
-    <option name="LAST_COMMIT_MESSAGE" value="모던 자바 6-1, 2장" />
+    <MESSAGE value="모던 자바 6-3장" />
+    <option name="LAST_COMMIT_MESSAGE" value="모던 자바 6-3장" />
   </component>
 </project>
