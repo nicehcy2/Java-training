@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b70e10-4535-4071-9d4e-db13d9d33668" name="변경" comment="모던 자바 6-4장">
-      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap06/ToListCollector.java" afterDir="false" />
+    <list default="true" id="06b70e10-4535-4071-9d4e-db13d9d33668" name="변경" comment="모던 자바 6-5장">
+      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap06/CollectorHarness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap06/PartitionPrimeNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,20 @@
       <recent name="org.example.collections" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Partitioning">
+  <component name="RunManager" selected="애플리케이션.CollectorHarness">
+    <configuration name="CollectorHarness" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modernjavainaction.chap06.CollectorHarness" />
+      <module name="JavaCodeTraining.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modernjavainaction.chap06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Grouping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="modernjavainaction.chap06.Grouping" />
       <module name="JavaCodeTraining.main" />
@@ -108,19 +122,6 @@
     </configuration>
     <configuration name="MakingStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="modernjavainaction.chap05.MakingStream" />
-      <module name="JavaCodeTraining.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modernjavainaction.chap05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumericStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modernjavainaction.chap05.NumericStreams" />
       <module name="JavaCodeTraining.main" />
       <extension name="coverage">
         <pattern>
@@ -160,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.CollectorHarness" />
         <item itemvalue="애플리케이션.Partitioning" />
         <item itemvalue="애플리케이션.Grouping" />
         <item itemvalue="애플리케이션.modernjavainaction.chap06.Reducing" />
         <item itemvalue="애플리케이션.MakingStream" />
-        <item itemvalue="애플리케이션.NumericStreams" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +215,7 @@
       <workItem from="1747225112432" duration="10000" />
       <workItem from="1747303839069" duration="7517000" />
       <workItem from="1747319751317" duration="18000" />
-      <workItem from="1747325535411" duration="1906000" />
+      <workItem from="1747325535411" duration="4371000" />
     </task>
     <task id="LOCAL-00001" summary="class, instace, object 연습">
       <created>1722081293984</created>
@@ -370,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1747326978067</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="모던 자바 6-5장">
+      <created>1747328891737</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1747328891737</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,6 +406,7 @@
     <MESSAGE value="모던 자바 6-1, 2장" />
     <MESSAGE value="모던 자바 6-3장" />
     <MESSAGE value="모던 자바 6-4장" />
-    <option name="LAST_COMMIT_MESSAGE" value="모던 자바 6-4장" />
+    <MESSAGE value="모던 자바 6-5장" />
+    <option name="LAST_COMMIT_MESSAGE" value="모던 자바 6-5장" />
   </component>
 </project>
