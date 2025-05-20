@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b70e10-4535-4071-9d4e-db13d9d33668" name="변경" comment="모던 자바 6-5장">
-      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap06/CollectorHarness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap06/PartitionPrimeNumbers.java" afterDir="false" />
+    <list default="true" id="06b70e10-4535-4071-9d4e-db13d9d33668" name="변경" comment="모던 자바 6-6장">
+      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap02/AppleFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap02/ApplePredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainaction/chap02/FilteringApples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,7 @@
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -93,7 +96,7 @@
       <recent name="org.example.collections" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.CollectorHarness">
+  <component name="RunManager" selected="애플리케이션.FilteringApples">
     <configuration name="CollectorHarness" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="modernjavainaction.chap06.CollectorHarness" />
       <module name="JavaCodeTraining.main" />
@@ -107,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Grouping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modernjavainaction.chap06.Grouping" />
+    <configuration name="FilteringApples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modernjavainaction.chap02.FilteringApples" />
       <module name="JavaCodeTraining.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modernjavainaction.chap06.*" />
+          <option name="PATTERN" value="modernjavainaction.chap02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MakingStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modernjavainaction.chap05.MakingStream" />
+    <configuration name="Grouping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modernjavainaction.chap06.Grouping" />
       <module name="JavaCodeTraining.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modernjavainaction.chap05.*" />
+          <option name="PATTERN" value="modernjavainaction.chap06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.FilteringApples" />
         <item itemvalue="애플리케이션.CollectorHarness" />
         <item itemvalue="애플리케이션.Partitioning" />
         <item itemvalue="애플리케이션.Grouping" />
         <item itemvalue="애플리케이션.modernjavainaction.chap06.Reducing" />
-        <item itemvalue="애플리케이션.MakingStream" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +218,9 @@
       <workItem from="1747225112432" duration="10000" />
       <workItem from="1747303839069" duration="7517000" />
       <workItem from="1747319751317" duration="18000" />
-      <workItem from="1747325535411" duration="4371000" />
+      <workItem from="1747325535411" duration="4497000" />
+      <workItem from="1747389320862" duration="137000" />
+      <workItem from="1747728912094" duration="3947000" />
     </task>
     <task id="LOCAL-00001" summary="class, instace, object 연습">
       <created>1722081293984</created>
@@ -378,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1747328891737</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="모던 자바 6-6장">
+      <created>1747331570059</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1747331570059</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,6 +419,7 @@
     <MESSAGE value="모던 자바 6-3장" />
     <MESSAGE value="모던 자바 6-4장" />
     <MESSAGE value="모던 자바 6-5장" />
-    <option name="LAST_COMMIT_MESSAGE" value="모던 자바 6-5장" />
+    <MESSAGE value="모던 자바 6-6장" />
+    <option name="LAST_COMMIT_MESSAGE" value="모던 자바 6-6장" />
   </component>
 </project>
