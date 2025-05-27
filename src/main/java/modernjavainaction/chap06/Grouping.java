@@ -40,7 +40,7 @@ public class Grouping {
         System.out.println("grouping 메서드 안에서 mapping");
         Map<Dish.Type, List<String>> dishNamesByType = menu.stream()
                 .collect(groupingBy(Dish::getType, mapping(Dish::getName, toList())));
-        printGrouping(dishNamesByType.entrySet());
+        System.out.println(dishNamesByType + "\n");
 
         System.out.println("grouping 메서드 안에서 flatMapping 사용");
         Map<Dish.Type, Set<String>> dishNamesByTpe = menu.stream()
