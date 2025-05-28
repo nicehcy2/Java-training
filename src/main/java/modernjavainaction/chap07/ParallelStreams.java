@@ -44,6 +44,7 @@ public class ParallelStreams {
         System.out.println(parallelSum(1000) + "\n");
     }
 
+
     static class Accumulator {
         public long total = 0;
         public void add(long value) { total += value; }
