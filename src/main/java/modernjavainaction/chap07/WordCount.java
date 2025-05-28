@@ -109,7 +109,7 @@ public class WordCount {
                 return null; // 파싱할 문자열을 순차 처리할 수 있으만큼 충분히 작아졌음을 알리는 null을 반환
             }
 
-            for (int splitPos = currentSize / 2 + currentSize;
+            for (int splitPos = currentSize / 2 + currentChar;
             splitPos < string.length(); splitPos++) {
                 if (Character.isWhitespace(string.charAt(splitPos))) {
                     Spliterator<Character> spliterator =
