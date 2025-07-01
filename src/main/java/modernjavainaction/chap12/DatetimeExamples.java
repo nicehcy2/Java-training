@@ -1,8 +1,10 @@
 package modernjavainaction.chap12;
 
 import java.time.*;
+import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoField;
 import java.time.temporal.ChronoUnit;
+import java.util.Locale;
 
 public class DatetimeExamples {
 
@@ -31,6 +33,31 @@ public class DatetimeExamples {
 
         print("LocalDate의 속성 바꾸기");
         printChangeLocalDate();
+
+        print("패턴으로 DateTimeFormatter 만들기");
+        printDateTimeFormatter();
+    }
+
+    static void printDateTimeFormatter() {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        LocalDate date = LocalDate.now();
+        String formattedDate = date.format(formatter);
+        System.out.println(formattedDate);
+        LocalDate date2 = LocalDate.parse(formattedDate, formatter);
+        System.out.println(date2);
+
+        date = LocalDate.now();
+        String s1 = date.format(DateTimeFormatter.BASIC_ISO_DATE);
+        System.out.println(s1);
+        String s2 = date.format(DateTimeFormatter.ISO_LOCAL_DATE);
+        System.out.println(s2);
+
+        DateTimeFormatter italianFormatter =
+                DateTimeFormatter.ofPattern("d. MMMM yyyy", Locale.KOREA);
+        date = LocalDate.now();
+        formattedDate = date.format(italianFormatter);
+        System.out.println(formattedDate);
+        System.out.println(LocalDate.parse(formattedDate, italianFormatter));
     }
 
     static void printChangeLocalDate() {
